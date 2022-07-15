@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 
 function Signup(props) {
-  const URL = process.env.PORT || "http://localhost:5000";
+  const URL =
+    "https://naveen-notes-app.herokuapp.com/" || "http://localhost:5000";
   const [credentials, setCredentials] = useState({
     name: "",
     email: "",

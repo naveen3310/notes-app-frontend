@@ -2,7 +2,8 @@ import NoteContext from "./noteContext";
 import react, { useState } from "react";
 
 const NoteState = (props) => {
-  const URL = process.env.PORT || "http://localhost:5000";
+  const URL =
+    "https://naveen-notes-app.herokuapp.com/" || "http://localhost:5000";
   const notesInitial = [];
   //add a note
   const [notes, setNotes] = useState(notesInitial);
