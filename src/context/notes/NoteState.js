@@ -3,7 +3,7 @@ import react, { useState } from "react";
 
 const NoteState = (props) => {
   const URL =
-    "https://naveen-notes-app.herokuapp.com/" || "http://localhost:5000";
+    "https://naveen-notes-app.herokuapp.com" || "http://localhost:5000";
   const notesInitial = [];
   //add a note
   const [notes, setNotes] = useState(notesInitial);

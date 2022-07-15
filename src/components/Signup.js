@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom";
 
 function Signup(props) {
   const URL =
-    "https://naveen-notes-app.herokuapp.com/" || "http://localhost:5000";
+    "https://naveen-notes-app.herokuapp.com" || "http://localhost:5000";
   const [credentials, setCredentials] = useState({
     name: "",
     email: "",
